@@ -1,19 +1,77 @@
-// Dominio_SOLID.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
 
 #include <iostream>
-
+#include "Universidad.h"
+#include "Docente.h"
+#include "Estudiante.h"
+#include "Fecha.h"
+#include "Persona.h"
+#include "ProfesorInterino.h"
+#include "ProfesorTitular.h"
+using namespace std;
+//El programa queria hacerlo mucho mas grande pero sin pensarlo ya habia hecho los puntos de SOLID 
+//entonces lo hice de esta manera sencilla 
+void menu() {
+	cout << "Bienvenidos al sistemas de la Universidad UCB" << endl;
+	cout << "1.-Agregar estudiante" << endl;
+	cout << "2.-Agregar docente"	<< endl;
+	cout << "3.-Mostrar estudiantes"<< endl;
+	cout << "4.-Mostrar docentes"	<< endl;
+	cout << "5.-Salir" << endl;
+}
 int main()
 {
-    std::cout << "Hello World!\n";
+	int op;
+	Universidad* universidad = new Universidad();
+
+	do {
+		menu();
+		cin >> op;
+		switch (op) {
+			case 1: {
+				system("cls");
+
+				universidad->agregarEstudiantes();
+				system("pause");
+				break;
+			}
+			case 2: {
+				system("cls");
+
+				universidad->agregarDocentes();
+				system("pause");
+				break;
+			}
+			case 3: {
+				system("cls");
+				cout << "Lista de estudiantes de la universidad" << endl;
+				cout << "*****************************" << endl;
+				universidad->mostrarEstudiantes();
+				system("pause");
+				break;
+			}
+			case 4: {
+				system("cls");
+				cout << "Lista de docentes de la universidad" << endl;
+				cout << "*****************************" << endl;
+				universidad->mostrarDocentes();
+				system("pause");
+				break;
+			}
+			case 5: {
+				system("cls");
+				cout << "Gracias por utilizar el programa :)" << endl;
+				system("pause");
+				break;
+			}
+			default: {
+				system("cls");
+				cout << "Opcion equivocadada" << endl;
+				system("pause");
+				break;
+			}
+		}
+		system("cls");
+	} while (op!=5);
+
 }
 
-// Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
-
-// Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
-//   2. Use la ventana de Team Explorer para conectar con el control de código fuente
-//   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
-//   4. Use la ventana Lista de errores para ver los errores
-//   5. Vaya a Proyecto > Agregar nuevo elemento para crear nuevos archivos de código, o a Proyecto > Agregar elemento existente para agregar archivos de código existentes al proyecto
-//   6. En el futuro, para volver a abrir este proyecto, vaya a Archivo > Abrir > Proyecto y seleccione el archivo .sln

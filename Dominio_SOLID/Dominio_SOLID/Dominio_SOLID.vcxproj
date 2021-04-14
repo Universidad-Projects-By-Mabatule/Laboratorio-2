@@ -151,7 +151,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayList.cpp" />
     <ClCompile Include="Dominio_SOLID.cpp" />
+    <ClCompile Include="Universidad.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="Docente.h" />
+    <ClInclude Include="Estudiante.h" />
+    <ClInclude Include="Fecha.h" />
+    <ClInclude Include="Persona.h" />
+    <ClInclude Include="ProfesorInterino.h" />
+    <ClInclude Include="ProfesorTitular.h" />
+    <ClInclude Include="Universidad.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
