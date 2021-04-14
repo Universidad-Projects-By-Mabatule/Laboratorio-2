@@ -1,0 +1,12 @@
+﻿  Dominio_SOLID.cpp
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\estudiante.h(17): warning C4102: 'Persona': etiqueta sin referencia
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\profesorinterino.h(19): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\profesorinterino.h(23): warning C4102: 'Persona': etiqueta sin referencia
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\profesortitular.h(15): warning C4102: 'Persona': etiqueta sin referencia
+  Universidad.cpp
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\estudiante.h(17): warning C4102: 'Persona': etiqueta sin referencia
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\profesorinterino.h(19): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\profesorinterino.h(23): warning C4102: 'Persona': etiqueta sin referencia
+c:\users\windows 10 2019\desktop\semestre 2021-i\arqui de soft\laboratorio 2\dominio_solid\dominio_solid\profesortitular.h(15): warning C4102: 'Persona': etiqueta sin referencia
+  Generando código...
+  Dominio_SOLID.vcxproj -> C:\Users\Windows 10 2019\Desktop\Semestre 2021-I\Arqui de soft\Laboratorio 2\Dominio_SOLID\Debug\Dominio_SOLID.exe
